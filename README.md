@@ -1,2 +1,2 @@
-# AdvancedNodeStarter
-Starting project for a course on Advanced Node @ Udemy
+# Redis-project
+MERN blog application with Redis Caching System implementation
