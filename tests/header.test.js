@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 let browser, page;
 
 beforeEach(async () => {
-	browser = await puppeteer.launch({ headless: false, timeout: 1000 });
+	browser = await puppeteer.launch({ headless: false });
 	page = await browser.newPage();
 	await page.goto('localhost:3000');
 });
